@@ -1,0 +1,78 @@
+body {
+  background-color: #cbccca;
+	max-width: 100%;
+}
+
+#carrousel {
+	position: relative;
+	overflow: hidden;
+	width:1600px;
+  max-height:900px;
+	border: 0px;
+	border-radius: 50px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*.indicators - generado por compass*/
+
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.indicators {
+  display: block;
+  height: 1.2em;
+  list-style-type: none;
+  margin: 2% 3% auto 2%;
+  width: 100%;
+}
+
+.indicators > li {
+  -moz-border-radius: 0.05em / 0.05em;
+  -webkit-border-radius: 0.05em 0.05em;
+  border-radius: 0.05em / 0.05em;
+  -moz-transition: background-color 0.15s linear;
+  -o-transition: background-color 0.15s linear;
+  -webkit-transition: background-color 0.15s linear;
+  transition: background-color 0.15s linear;
+  cursor: pointer;
+  float: left;
+  height: 100%;
+  margin-left: 0.3em;
+  position: relative;
+  vertical-align: top;
+  width: 1.8em;
+}
+
+.indicators > li:first-child {
+  margin-left: 0;
+}
+
+.indicators > li > em {
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  background-color: #a3a3a3;
+  content: "";
+  display: inline-block;
+  height: 40%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.indicators li:hover > em {
+  height: 100%;
+}
+
+.indicators > .active > em {
+  background-color: #4d4d4d;
+  height: 100%;
+}
