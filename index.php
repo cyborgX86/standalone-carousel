@@ -47,7 +47,7 @@ $files = getPool($pool)[1]; // elementos del carrusel.
 
 <div style="margin-top: 3%; margin-bottom: 1%;">
   <div align="center" class="col-md-12 col-sm-12  col-xs-12" style="width: 100%; height: 100%;">
-    <div id="carrousel">
+    <div id="carousel">
         <?php getCarousel($pool); ?>
     </div>
   </div>
