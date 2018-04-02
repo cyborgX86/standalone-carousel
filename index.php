@@ -20,12 +20,12 @@ $files = getPool($pool)[1]; // Elementos del carrusel.
 <head>
     <meta charset="utf-8">
     <title><?php echo ($title); ?></title>
-		<meta http-equiv="refresh" content="<?php echo (refreshTime($pool)); ?>">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/style.css" rel="StyleSheet" type="text/css">
-		<script src="js/jquery-3.1.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+    <meta http-equiv="refresh" content="<?php echo (refreshTime($pool)); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="StyleSheet" type="text/css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     //Carrusel/Indicadores
     $(function(){
