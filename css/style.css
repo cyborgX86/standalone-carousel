@@ -1,17 +1,17 @@
 body {
   background-color: #cbccca;
-	max-width: 100%;
+  max-width: 100%;
 }
 
 #carrousel {
-	position: relative;
-	overflow: hidden;
-	width:1600px;
+  position: relative;
+  overflow: hidden;
+  width:1600px;
   max-height:900px;
-	border: 0px;
-	border-radius: 50px;
-	margin: 0 auto;
-	padding: 0;
+  border: 0px;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 /*indicators*/
