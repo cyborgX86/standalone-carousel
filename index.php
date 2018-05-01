@@ -1,8 +1,4 @@
 <?php
-/*
-Pendientes:
-Adaptar tamaño a pantalla
-*/
 
 /*
 Muestra información y noticias mediante un carrusel de imágenes. Para que una
