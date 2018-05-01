@@ -81,8 +81,8 @@ function printHeader($header){
                   <li class="active"><a>:::: ' . $subTitleChanel . ' ::::</a></li>
                 </ul>
               </div>
-  	       </div>
-         </nav>';
+            </div>
+          </nav>';
   }else{
     return;
   }
