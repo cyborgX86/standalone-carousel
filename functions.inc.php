@@ -77,7 +77,7 @@ function printHeader($header){
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a>Canal: #' . $chanelName . '</a></li
+                  <li class="active"><a>Canal: #' . $chanelName . '</a></li>
                   <li class="active"><a>:::: ' . $subTitleChanel . ' ::::</a></li>
                 </ul>
               </div>
